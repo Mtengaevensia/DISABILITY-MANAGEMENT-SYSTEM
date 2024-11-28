@@ -1,0 +1,50 @@
+
+.content form{
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+	margin-left: 5px;
+}
+.content form .fields{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+form .fields .input-field{
+	display: flex;
+	width: calc(100% / 3 - 15px);
+	flex-direction: column;
+	margin: 4px 0;
+}
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #007bff; /* Blue label text */
+}
+.input-field input, select{
+	outline: none;
+	font-size: 14px;
+	font-weight: 400px;
+	border-radius: 5px;
+	border: 1px solid #ced4da;
+	padding: 0 15px;
+	height: 42px;
+	margin: 8px 0;
+}
+.input-field textarea{
+    resize: none;
+}
+.input-field input[type=submit] {
+    background-color: #007bff; /* Blue submit button */
+    color: #ffffff; /* White text on submit button */
+    cursor: pointer;
+}
+
+.input-field input[type=submit]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+	

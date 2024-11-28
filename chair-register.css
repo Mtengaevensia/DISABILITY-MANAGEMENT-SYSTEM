@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f9fc;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    color: #007bff;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    width: 50px;
+    height: auto;
+}
+
+
+hr {
+    border: none;
+    border-top: 2px solid #007bff;
+    margin-top: 5px;
+}
+
+.content form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-field:last-child {
+    margin-right: 0;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #007bff; /* Blue label text */
+}
+
+.input-field input, 
+.input-field select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-field input[type=submit] {
+    background-color: #007bff; /* Blue submit button */
+    color: #ffffff; /* White text on submit button */
+    cursor: pointer;
+}
+
+.input-field input[type=submit]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #007bff; /* Blue link text */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

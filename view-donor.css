@@ -1,0 +1,46 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+.delete-button {
+    background-color: #ff0000; /* Red background for delete button */
+    color: #fff; /* White text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none; /* Remove default link underline */
+}
+.update-button, .delete-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.update-button {
+    background-color: #007bff; /* Blue background for update button */
+    color: #fff; /* White text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none; /* Remove default link underline */
+}
+.delete-button:hover{
+	opacity: 0.8;
+}
+.update-button:hover{
+	opacity: 0.8;
+}
+
+
+.table th {
+    background-color: #007bff; /* Blue header background */
+    color: #ffffff; /* White text */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray row background */
+}
+

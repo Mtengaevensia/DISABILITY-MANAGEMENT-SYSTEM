@@ -1,0 +1,74 @@
+.beneficiary-details {
+    margin-top: 20px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.beneficiary-details h2 {
+    margin-top: 0;
+}
+
+.donations-list {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background: #007bff;
+    color: #fff;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background: #0056b3;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: none;
+    }
+
+    .sidebar.active {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: #007bff;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+}

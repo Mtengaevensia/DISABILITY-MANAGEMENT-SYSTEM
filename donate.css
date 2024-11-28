@@ -1,0 +1,75 @@
+/* Donation section styles */
+
+.donation-section {
+    margin-top: 20px;
+}
+
+.donation-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.donation-section h3 i {
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+.donation-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #007bff;
+    font-weight: bolder;
+}
+
+.donation-form select,
+.donation-form textarea,
+.donation-form input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.donation-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.donation-form button:hover {
+    background-color: #0056b3;
+}
+
+.payment-info {
+    margin-bottom: 15px;
+}
+
+.payment-info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+.payment-info strong{
+    color: #007bff;
+}
